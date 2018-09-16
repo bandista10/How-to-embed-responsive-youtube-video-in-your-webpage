@@ -1,0 +1,36 @@
+body{
+    margin: 0;  
+    background: url('bg2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 3px 3px #333;
+}
+
+.embed-video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
